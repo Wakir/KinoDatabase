@@ -32,7 +32,7 @@
     </div>
 
     <div class ="baner">
-        <p>Pozdrawiam serdecznie z miejsca gdzie bedzie baner. </p>
+        <p>Pozdrawiam serdecznie z miejsca gdzie bedzie baner I DZIALA GIT. </p>
     </div>
 
 </body>
