@@ -46,6 +46,16 @@
 
     <div class ="tabela">
         <p>Pracownicy</p>
+
+        <table border="1">
+            <tr>
+            <td>Imię</td>
+            <td>Nazwisko</td>
+            <td>Mail</td>
+            <td>Stanowisko</td>
+            </tr>         
+            </table>
+
     </div>
 
 </body>

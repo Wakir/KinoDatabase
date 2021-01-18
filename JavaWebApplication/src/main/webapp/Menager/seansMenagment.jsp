@@ -46,6 +46,17 @@
 
     <div class ="tabela">
         <p>Seanse </p>
+
+        <table border="1">
+            <tr>
+            <td>Godzina</td>
+            <td>Nazwisko</td>
+            <td>Mail</td>
+            <td>Stanowisko</td>
+            </tr>
+
+
+            </table>
     </div>
 
 </body>
