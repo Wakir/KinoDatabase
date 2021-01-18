@@ -53,9 +53,18 @@
             <td>Nazwisko</td>
             <td>Mail</td>
             <td>Stanowisko</td>
-            </tr>         
-            </table>
+            </tr>  
+            
+            <c:forEach items="${employeeList}" var="employee" >
+          <tr>
+             <td>${employee.getImie()}</td>
+             <td>${employee.getNazwisko()}</td>
+             <td>${employee.getEmail()}</td>
+             <td>${employee.getStanowisko()}</td>
+          </tr>
+       </c:forEach>
 
+            </table>
     </div>
 
 </body>
