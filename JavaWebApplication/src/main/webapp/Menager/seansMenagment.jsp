@@ -33,8 +33,8 @@
 
             <ul id="menuMenager3">
                 <li><a href="seansMenagmentAdd.jsp">Dodaj seans</a></li>
-                <li><a href="seansMenagmentAdd.jsp">Modyfikuj seans</a></li>
-                <li><a href="seansMenagmentAdd.jsp">Usuń seans</a></li>
+                <li><a href="seansMenagmentModify.jsp">Modyfikuj seans</a></li>
+                <li><a href="seansMenagment.jsp">Usuń seans</a></li>
                 </ul>     
 
     </div>
