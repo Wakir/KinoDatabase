@@ -14,11 +14,11 @@ public class Pracownik {
 	public Pracownik() {
 		super();
 	}
-	public Pracownik(String imie, String nazwisko, String numerTel, String email, String haslo) {
+	public Pracownik(String imie, String nazwisko, String stanowisko, String email, String haslo) {
 		super();
 		this.imie = imie;
 		this.nazwisko = nazwisko;
-		this.stanowisko = numerTel;
+		this.stanowisko = stanowisko;
 		this.email = email;
 		this.haslo = haslo;
 	}
