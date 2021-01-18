@@ -31,11 +31,6 @@
             <li><a href="przegladRachunkow.jsp">Przegląd rachunków</a></li>
             </ul>
 
-            <ul id="menuMenager3">
-                <li><a href="seansMenagmentAdd.jsp">Dodaj seans</a></li>
-                <li><a href="seansMenagmentAdd.jsp">Modyfikuj seans</a></li>
-                <li><a href="seansMenagmentAdd.jsp">Usuń seans</a></li>
-                </ul>     
 
     </div>
 
@@ -44,8 +39,52 @@
 
     </div>
 
-    <div class ="tabela">
-        <p>Dodaj seans </p>
+    <div class="pracownikForm">
+        <p>Seanse</p>
+
+        <form id="pracownikForm" action="..\DodajSeans" method="post"> 
+            <select name="film" id="film" required>
+                <option value ="film1">film1</option>
+            </select>
+            
+            <select name="opiekun" id="opiekun" required>
+                <option value ="Andrzej">Andrzej</option>
+            </select>
+
+            <select name="sala" id="sala" required>
+                    <option value ="duza">duza</option>
+            </select>   
+
+            <label for="date">Data</label>
+            <input type="date" name="date" required/><br/>
+           
+            <label for="time">Czas</label>
+            <input type="time" name="time" required/><br/>
+
+            <label for="czasTrwania">Czas trwania</label>
+            <input type="text" name="czasTrwania" required/><br/>
+            
+            <label for="napisy">Napisy</label>
+            <select name="napisy" id="napisy" required>
+                <option value ="1">TAK</option>
+                <option value ="0">NIE</option>
+            </select>
+
+            <label for="jezyk">Język</label>
+            <select name="jezyk" id="jezyk" required>
+                <option value ="polski">Polski</option>
+                <option value ="niemiecki">Niemiecki</option>
+                <option value ="java">java</option>
+            </select>
+
+            <input type="submit" value="Dodaj"/>  
+        </form>  
+
+        <form id="cancelBtn" method="get" action="seansMenagment.jsp">
+            <button type="submit">Anuluj</button>
+        </form>
+        
+
     </div>
 
 </body>
