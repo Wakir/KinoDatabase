@@ -1,0 +1,329 @@
+
+html{
+	background: radial-gradient( #5c5656, #423737);
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+	position: relative;
+	width:1000px ;
+	height: 700px;
+	
+	border-style: solid;
+	border-width: 20px 20px 20px 20px;
+	border-color: white;
+
+
+	background-color: white;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 50px;
+}
+
+header{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block ;
+	background-color: #5DAFAA;
+	
+	text-align: center;
+	height: 60px;
+	width: 1000px;
+	padding: 10px 0px 0px 0px ;
+	/* margin-top: 20px ; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	
+	border-bottom: 10px;
+}
+#mainHeader{
+	font-family: 'Sen', sans-serif;
+	position: relative;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.panelMode, .login, .menu{
+	width: 200px;
+	background-color: rgba(196, 196, 196, 0.33);
+}
+
+.panelMode{
+	display: inline-block;
+	position: absolute;
+	top:70px;
+	/* background-color: #C4C4C4; */
+	/* position: relative;
+	top:1em;
+	left:1em; */
+	/* width: 200px; */
+	height: 100px;
+}
+
+.panelMode #panelName{
+	position: relative;
+	top:15px;
+	left:16px;
+	color: #0E6C94;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 168px;
+	
+}
+
+.panelMode #panelDane{
+	position: relative;
+	top:20px;
+	left:16px;
+	color: #0E6C94;
+	margin-top: 0px;
+	font-size: 10px;
+	width: 168px;
+}
+
+.menu{
+	position: absolute;
+	top:170px;
+	/* background-color: grey; */
+	/* width: 200px; */
+	height: 470px;
+}
+
+.menu #menuGoscia{
+	position: absolute;
+	top:40px;
+
+	padding: 1em;
+	line-height: 2.0;
+
+	list-style: none;
+}
+
+.menu #menuPracownika{
+	position: absolute;
+	top:40px;
+
+	padding: 1em;
+	line-height: 2.0;
+	list-style: none;
+
+	font-size: 14px;
+}
+
+.menu #menuUser{
+	position: absolute;
+	top:300px;
+
+	padding: 1em;
+	line-height: 2.0;
+
+	list-style: none;
+}
+
+.menu #menuMenager{
+	position: absolute;
+	top:40px;
+
+	padding: 1em;
+	line-height: 2.0;
+
+	list-style: none;
+
+	font-size: 14px;
+}
+
+.menu #menuMenager2{
+	position: absolute;
+	top:200px;
+
+	padding: 1em;
+	line-height: 2.0;
+
+	list-style: none;
+	font-size: 14px;
+}
+
+.menu #menuMenager3{
+	position: absolute;
+	top:300px;
+
+	padding: 1em;
+	line-height: 2.0;
+
+	list-style: none;
+	font-size: 14px;
+}
+
+a:link{
+	color:black;
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#0E6C94;
+	text-decoration:solid;
+}
+
+a:active{
+	color:#0E6C94;
+	text-decoration:solid;
+}
+
+
+
+.login{
+	position: absolute;
+	top:640px;
+	/* background-color: beige; */
+	/* width: 200px; */
+	height: 59px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: black;
+}
+
+.login #loginBtn{
+	padding-left: 1em;
+}
+
+.logowanie{
+	border-style: solid;
+	border-width: 20px 0px 0px 0px;
+	border-color: white;
+
+	background-color: rgba(196, 196, 196, 0.33);
+
+	position: absolute;
+	top:70px;
+
+	padding: 20px;
+	width: 960px;
+	height: 580px;
+}
+
+#loginHeader, #loginForm,#registerBtnForm, #registerForm{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loginHeader{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+#registerForm,#loginForm{
+	
+	margin-top: 50px;
+	text-align: center;
+}
+
+#registerForm input,#loginForm input{
+	height: 50px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	width: 250px;
+}
+
+input[type=submit]{
+	height: 50px;
+	width: 250px;
+	margin-top: 10px;
+	background-color: black;
+	color:white;
+}
+
+.logowanie p{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#orText{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#registerBtnForm{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.baner{
+	border-style: solid;
+	border-width: 10px 0px 0px 20px;
+	border-color: white;
+
+	background-color: rgba(196, 196, 196, 0.33);
+
+	position: absolute;
+	top: 70px;
+	left: 200px;
+
+	padding: 20px;
+	width: 740px;
+	height: 580px;
+}
+
+
+
+.tabela{
+	border-style: solid;
+	border-width: 70px 0px 0px 20px;
+	border-color: white;
+
+	background-color: rgba(196, 196, 196, 0.33);
+
+	position: absolute;
+	top: 70px;
+	left: 200px;
+
+	padding: 20px;
+	width: 740px;
+	height: 520px;
+}
+
+.tabela p, .pracownikForm p{
+	position: absolute;
+	top: -75px;
+	left: -20px;
+	padding:20px;
+	font-size: 25px;
+}
+
+.pracownikForm{
+	border-style: solid;
+	border-width: 70px 0px 0px 20px;
+	border-color: white;
+
+	background-color: rgba(196, 196, 196, 0.33);
+
+	position: absolute;
+	top: 70px;
+	left: 200px;
+
+	padding: 20px;
+	width: 740px;
+	height: 520px;
+}
+
+

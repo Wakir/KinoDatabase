@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>dzialaj</servlet-name>
+  	<display-name>dzialaj</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.dzialaj</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Zaloguj</servlet-name>
+  	<display-name>Zaloguj</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Zaloguj</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Zarejestruj</servlet-name>
+  	<display-name>Zarejestruj</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.Zarejestruj</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DodajFilm</servlet-name>
+  	<display-name>DodajFilm</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.DodajFilm</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DodajPracownika</servlet-name>
+  	<display-name>DodajPracownika</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.DodajPracownika</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ModifyFilm</servlet-name>
+  	<display-name>ModifyFilm</display-name>
+  	<description></description>
+  	<servlet-class>com.JavaWebApplication.Controller.ModifyFilm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dzialaj</servlet-name>
+  	<url-pattern>/dzialaj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Zaloguj</servlet-name>
+  	<url-pattern>/Zaloguj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Zarejestruj</servlet-name>
+  	<url-pattern>/Zarejestruj</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DodajFilm</servlet-name>
+  	<url-pattern>/DodajFilm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DodajPracownika</servlet-name>
+  	<url-pattern>/DodajPracownika</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ModifyFilm</servlet-name>
+  	<url-pattern>/ModifyFilm</url-pattern>
+  </servlet-mapping>
+</web-app>
