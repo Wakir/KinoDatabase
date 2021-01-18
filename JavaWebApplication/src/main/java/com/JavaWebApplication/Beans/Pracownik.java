@@ -38,8 +38,8 @@ public class Pracownik {
 	public String getStanowisko() {
 		return stanowisko;
 	}
-	public void setStanowisko(String numerTel) {
-		this.stanowisko = numerTel;
+	public void setStanowisko(String stanowisko) {
+		this.stanowisko = stanowisko;
 	}
 	public String getEmail() {
 		return email;

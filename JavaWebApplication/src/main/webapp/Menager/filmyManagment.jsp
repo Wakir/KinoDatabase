@@ -1,5 +1,5 @@
 
-<%@page import="../Film"%>
+<%@page import="com.JavaWebApplication.Beans.Film"%>
 <%@page import="java.util.ArrayList"%> 
 <%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" language="java"%>
 <html lang="pl">
@@ -60,15 +60,10 @@
             <td>Obsada</td>
             </tr>  
             
-            <%-- Fetching the attributes of the request object 
-             which was previously set by the servlet  
-              "StudentServlet.java" 
-        --%>  
+         
         <%ArrayList<Film> filmy =  
             (ArrayList<Film>)request.getAttribute("filmList"); 
         for(Film f:filmy){%> 
-        <%-- Arranging data in tabular form 
-        --%> 
             <tr> 
                 <td><%=f.getTytul()%></td> 
                 <td><%=f.getRezyser()%></td> 
@@ -77,7 +72,7 @@
                 <td><%=f.getPegi()%></td>
                 <td><%=f.getObsada()%></td>
             </tr> 
-          
+          	<%}%> 
             </table>
     </div>
 
