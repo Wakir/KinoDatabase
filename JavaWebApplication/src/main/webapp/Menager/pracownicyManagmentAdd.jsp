@@ -47,7 +47,7 @@
             <input type="text" name="firstName" required/><br/>
             <label for="lastName">Nazwisko</label>
             <input type="text" name="lastName" required/><br/>
-            <label for="phoneNum">Numer telefonu</label>
+            <label for="phoneNum">Stanowisko</label>
             <input type="text" name="phoneNum" required/><br/>
             <label for="email">Email</label>
             <input type="text" name="email" required/> <br/>

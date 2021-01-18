@@ -27,12 +27,24 @@ public class FilmDB {
 			String dlugosc = dane.getDlugosc();
 			Integer gatId =2;
 			Integer pegiId =1;
+			Integer rezId;
 			
 			String[] rezysertab = rezyser.split(" ");
 			
+			
 			rs = stmt.executeQuery("SELECT Id_rezysera from  bdkino.rezyser where imie ='"+rezysertab[0]+"'and nazwisko ='"+rezysertab[1]+"' ");
-			rs.next();
-			Integer rezId = rs.getInt("Id_rezysera");
+			if(rs.next())
+			{
+				 rezId = rs.getInt("Id_rezysera");
+			}
+			else
+			{
+				stmt.executeUpdate(" insert into rezyser(Imie,Nazwisko) Values ( '"+rezysertab[0]+"','"+rezysertab[1]+"' )   ");
+				rs = stmt.executeQuery("SELECT Id_rezysera from  bdkino.rezyser where imie ='"+rezysertab[0]+"'and nazwisko ='"+rezysertab[1]+"' ");
+				rs.next();
+				rezId = rs.getInt("Id_rezysera");
+				
+			}
 			
 			rs = stmt.executeQuery("SELECT Id_gatunku from  bdkino.gatunektab where Nazwa_gatunku ='"+gatunek+"' ");
 			rs.next();

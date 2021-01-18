@@ -17,10 +17,10 @@ public class PracownikDB {
 			Statement stmt =  con.createStatement();
 			String imie = dane.getImie();
 			String nazwisko = dane.getNazwisko();
-			String telefon = dane.getNumerTel();
+			String stanowisko = dane.getStanowisko();
 			String email = dane.getEmail();
 			String haslo = dane.getHaslo();
-			String stanowisko = "Kasjer";
+			
 			Integer typ = 2;
 			stmt.executeUpdate("insert into login(Mail,Haslo,Id_typu) VALUES ('"+email+"','"+haslo+"','"+typ+"')");
 			stmt.executeUpdate("insert into pracownik(Imie,Nazwisko,Mail,Stanowisko) VALUES ('"+imie+"','"+nazwisko+"','"+email+"','"+stanowisko+"')");

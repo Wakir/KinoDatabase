@@ -42,13 +42,14 @@ public class DodajPracownika extends HttpServlet {
 		String imie = request.getParameter("firstName");
 		String nazwisko = request.getParameter("lastName");
 		String password = request.getParameter("password");
-		String telefon = request.getParameter("phoneNum");
+		String stanowisko = request.getParameter("phoneNum");
 		String email = request.getParameter("email");
 		
-		Pracownik dane = new Pracownik(imie,nazwisko,telefon,email,password);
+		Pracownik dane = new Pracownik(imie,nazwisko,stanowisko,email,password);
 		PracownikDB ud = new PracownikDB();
 		ud.InsertPracownik(dane);
 		
+		response.sendRedirect("Menager\\pracownicyManagment.jsp");
 		
 	}
 

@@ -4,7 +4,7 @@ public class Pracownik {
 	
 	private String imie;
 	private String nazwisko;
-	private String numerTel;
+	private String stanowisko;
 	private String email;
 	private String haslo;
 	
@@ -18,7 +18,7 @@ public class Pracownik {
 		super();
 		this.imie = imie;
 		this.nazwisko = nazwisko;
-		this.numerTel = numerTel;
+		this.stanowisko = numerTel;
 		this.email = email;
 		this.haslo = haslo;
 	}
@@ -35,11 +35,11 @@ public class Pracownik {
 	public void setNazwisko(String nazwisko) {
 		this.nazwisko = nazwisko;
 	}
-	public String getNumerTel() {
-		return numerTel;
+	public String getStanowisko() {
+		return stanowisko;
 	}
-	public void setNumerTel(String numerTel) {
-		this.numerTel = numerTel;
+	public void setStanowisko(String numerTel) {
+		this.stanowisko = numerTel;
 	}
 	public String getEmail() {
 		return email;

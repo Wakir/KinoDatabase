@@ -53,7 +53,7 @@ public class Zarejestruj extends HttpServlet {
 		
 		
 		ud.insertUser(dane);
-		
+		response.sendRedirect("Guest\\loginPanel.jsp");
 		//out.print("HERE");
 	}
 
